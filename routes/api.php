@@ -21,6 +21,9 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/dolar', 'api\\CouteController@dolar');
 
 Route::get('/dolar', 'api\\CouteController@dolar');
+Route::get('/euro', 'api\\CouteController@euro');
+Route::get('/bitcoin', 'api\\CouteController@bitcoin');
+Route::get('/ouro', 'api\\CouteController@ouro');
 Route::get('/allcoins', 'api\\CouteController@allcoins');
 
 Route::get('/ok', function(){
